@@ -1,3 +1,4 @@
 # Text Summarization using TextRank Algorithm
 
-Summarization is the act of reducing a long text to its most essential points while preserving its overall meaning. This can be done manually, but it is time-consuming and tedious. Therefore, the use of automation for text summarization is becoming increasingly popular in academic research. The goal of this project is to develop a text summarization model using the extractive approach and the Textrank algorithm. 
+## Abstract
+Reading long and prolix articles can cause a hassle to some readers, such as when they decided that the articles are not worth reading, only after reading a huge part of them. To overcome this issue, there is a solution that can be implemented in Natural Language Processing (NLP) field, namely text summarization. Text summarization is all about shortening a lengthy article and summarizing it with high conciseness and succinctness. One of the approaches of text summarization is by implementing TextRank algorithm. TextRank ranks all the sentences in the article and displays the highest sentences in the summary. 
