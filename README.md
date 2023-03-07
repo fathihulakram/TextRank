@@ -40,3 +40,8 @@ summary_length = int(length/5)
 ```
 model = Word2Vec(sentence_tokens, vector_size=1, min_count=1, epochs=2000)
 ```
+## Troubleshooting
+1.  In gensim version 3.8.3, `vector_size` and `epochs` parameter is no longer supported. Instead, you can use the `size` and `iter` parameter to specify the vector size and the number of training iterations.
+```
+model = Word2Vec(sentence_tokens, size=1, min_count=1, iter=2000)
+```
