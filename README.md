@@ -19,17 +19,14 @@ pip install numpy pandas nltk gensim scipy networkx
 ```
 
 ## Usage
-1. Clone the repository or download the script `text_summarization.py`.
+1. Clone the repository or download the script `text_summarization.ipynb`.
 2. Place the text file you want to summarize in the same directory as the script.
 3. Open the script in a code editor and modify the file name in the following lines to match the name of your text file:
 ```
 file = open("example.txt", "r")
 text = file.read()
 ```
-4. Run the script using the following command:
-```
-python text_summarization.py
-```
+4. Run the script section by section in Jupyter notebook.
 5. The program will output the total number of sentences and the summary length (number of sentences in the summary).
 6. The program will then print the summary of the most important sentences.
 
